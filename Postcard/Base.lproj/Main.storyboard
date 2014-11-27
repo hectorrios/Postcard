@@ -61,6 +61,15 @@
                                     <rect key="frame" x="5" y="72" width="299" height="56"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNd-Cg-4Xv">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="150" width="211" height="35"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="beT-KP-QKc"/>
                                 <exclude reference="Zec-1E-Y7Q"/>
                                 <exclude reference="aMh-fA-jJS"/>
+                                <exclude reference="KNd-Cg-4Xv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="beT-KP-QKc"/>
                                 <include reference="Zec-1E-Y7Q"/>
                                 <include reference="aMh-fA-jJS"/>
+                                <include reference="KNd-Cg-4Xv"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,6 +100,7 @@
                         <outlet property="enterNameTextField" destination="zt9-pQ-SfF" id="CfL-Re-fZo"/>
                         <outlet property="mailButton" destination="Zec-1E-Y7Q" id="Lpb-fT-hid"/>
                         <outlet property="messageLabel" destination="aMh-fA-jJS" id="FaX-Rg-BY5"/>
+                        <outlet property="nameLabel" destination="KNd-Cg-4Xv" id="UdI-it-8Lg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
